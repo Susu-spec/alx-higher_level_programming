@@ -25,4 +25,4 @@ def uppercase(str):
         ch_code = ord(letter) - 32
         char = chr(ch_code)
         result += char
-    print(result)
+    print('{}'.format(result))
