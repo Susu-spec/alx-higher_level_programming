@@ -8,6 +8,7 @@ def is_letter(ch):
     else:
         return False
 
+
 # check if uppercase
 def is_upper(ch):
     if (65 <= ord(ch) <= 90):
@@ -15,11 +16,12 @@ def is_upper(ch):
     else:
         return False
 
+
 # convert to uppercase
 def uppercase(str):
     result = ''
     for letter in str:
-        if (is_letter(letter) == False) or (is_upper(letter) == True):
+        if (is_letter(letter) is False) or (is_upper(letter) is True):
             result += letter
             continue
         ch_code = ord(letter) - 32
