@@ -31,7 +31,7 @@ listint_t *insert_node(listint_t **head, int number)
 	}
 
 	trav = *head;
-	while (trav->next != NULL)
+	while (trav->next != NULL && trav->n < number)
 	{
 		trav = trav->next;
 	}
