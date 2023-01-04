@@ -5,6 +5,5 @@ def remove_char_at(str, n):
     for i in range(length):
         if i != n:
             copy.append(str[i])
-    copy = "".join(copy) # Convert list to string
+    copy = "".join(copy)  # Convert list to string
     return (copy)
-
